@@ -1,0 +1,89 @@
+body {
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: pink;
+  height: 100vh;
+}
+
+.content {
+  width: 70vw;
+  height: 80vh;
+  margin: auto;
+  margin-top: 50px;
+  opacity: 0.8;
+}
+.content .title {
+  height: 15vh;
+  background-color: aliceblue;
+  border-radius: 5px;
+  font-size: 50pt;
+  color: darkgray;
+  text-align: center;
+  box-shadow: 3px 3px 3px gray;
+}
+.content .area {
+  height: 70vh;
+  background-color: aliceblue;
+  border-radius: 5px;
+  color: darkgray;
+  box-shadow: 3px 3px 3px gray;
+  font-size: 24pt;
+  margin-top: 30px;
+  padding-top: 40px;
+}
+.content .area .searcharea {
+  width: 70vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.content .area .searcharea input {
+  width: 150px;
+  height: 30px;
+  border-radius: 5px;
+  border-style: none;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.content .area .searcharea p {
+  margin: 0;
+}
+.content .area .searcharea button {
+  width: 120px;
+  height: 40px;
+  font-size: 20pt;
+  border-radius: 5px;
+  border-style: none;
+  background-color: pink;
+  color: aliceblue;
+  box-shadow: 3px 3px 3px gray;
+  margin-left: 20px;
+}
+.content .area .searcharea button:hover {
+  background-color: darkgray;
+  color: aliceblue;
+}
+.content .area .searcharea button:active {
+  background-color: pink;
+  color: aliceblue;
+}
+.content .area .showarea {
+  width: 70vw;
+}
+.content .area .showarea .totalarea {
+  height: 10vh;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.content .area .showarea .totalarea p {
+  margin-left: 5px;
+}
+.content .area .showarea .numberarea {
+  width: 60vw;
+  height: 50vh;
+  overflow: auto;
+  margin-left: 100px;
+  font-size: 30pt;
+}/*# sourceMappingURL=main.css.map */
