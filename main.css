@@ -1,7 +1,7 @@
 body {
   margin: 0;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  background-color: pink;
+  background-color: powderblue;
   height: 100vh;
 }
 
@@ -14,7 +14,7 @@ body {
 }
 .content .title {
   height: 15vh;
-  background-color: aliceblue;
+  background-color: white;
   border-radius: 5px;
   font-size: 50pt;
   color: darkgray;
@@ -23,7 +23,7 @@ body {
 }
 .content .area {
   height: 70vh;
-  background-color: aliceblue;
+  background-color: white;
   border-radius: 5px;
   color: darkgray;
   box-shadow: 3px 3px 3px gray;
@@ -54,8 +54,8 @@ body {
   font-size: 20pt;
   border-radius: 5px;
   border-style: none;
-  background-color: pink;
-  color: aliceblue;
+  background-color: powderblue;
+  color: white;
   box-shadow: 3px 3px 3px gray;
   margin-left: 20px;
 }
@@ -64,7 +64,7 @@ body {
   color: aliceblue;
 }
 .content .area .searcharea button:active {
-  background-color: pink;
+  background-color: powderblue;
   color: aliceblue;
 }
 .content .area .showarea {
